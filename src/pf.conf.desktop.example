@@ -22,14 +22,14 @@ include "/etc/pf.d/state/stateless.conf"
 
 # domain (DNS)
 # include "/etc/pf.d/service/domain-in.conf"
-# include "/etc/pf.d/service/domain-out.conf"
+ include "/etc/pf.d/service/domain-out.conf"
 
 # include "/etc/pf.d/service/https-in.conf"
-# include "/etc/pf.d/service/https-out.conf"
+ include "/etc/pf.d/service/https-out.conf"
 
 # ntp (Network Time Protocol)
 # include "/etc/pf.d/service/ntp-in.conf"
-# include "/etc/pf.d/service/ntp-out.conf"
+ include "/etc/pf.d/service/ntp-out.conf"
 
 # ssh (Secure SHell)
 # include "/etc/pf.d/service/ssh-in.conf"
@@ -37,4 +37,4 @@ include "/etc/pf.d/state/stateless.conf"
 
 # www (Web (Non SSL)
 # include "/etc/pf.d/service/www-in.conf"
-# include "/etc/pf.d/service/www-out.conf"
+ include "/etc/pf.d/service/www-out.conf"
